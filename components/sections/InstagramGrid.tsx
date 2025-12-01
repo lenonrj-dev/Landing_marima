@@ -12,26 +12,26 @@ export function InstagramGrid() {
               className="absolute left-[427px] top-[-30px] h-[120px] w-[120px] overflow-hidden"
               aria-hidden
             >
-              <img src="/images/insta-2.jpg" alt="" loading="lazy" className="h-full w-full object-cover" />
+              <img src="https://res.cloudinary.com/dwf2uc6ot/image/upload/v1764628714/04_1_zk0y5h.png" alt="" loading="lazy" className="h-full w-full object-cover" />
             </div>
 
             <div
               className="absolute left-[565px] top-[-100px] h-[190px] w-[180px] overflow-hidden"
               aria-hidden
             >
-              <img src="/images/insta-5.jpg" alt="" loading="lazy" className="h-full w-full object-cover" />
+              <img src="https://res.cloudinary.com/dwf2uc6ot/image/upload/v1764627982/02_jowplv.png" alt="" loading="lazy" className="h-full w-full object-cover" />
             </div>
 
             <div
               className="absolute left-[15%] top-[22%] h-[220px] w-[200px] overflow-hidden"
               aria-hidden
             >
-              <img src="/images/insta-1.jpg" alt="" loading="lazy" className="h-full w-full object-cover" />
+              <img src="https://res.cloudinary.com/dwf2uc6ot/image/upload/v1764628084/03_xlgi1b.png" alt="" loading="lazy" className="h-full w-full object-cover" />
             </div>
 
             <div className="absolute left-[35%] top-[18%] h-[340px] w-[360px] overflow-hidden">
               <img
-                src="https://res.cloudinary.com/dwf2uc6ot/image/upload/v1764625176/Screenshot_11_gsdhap.png"
+                src="https://res.cloudinary.com/dwf2uc6ot/image/upload/v1764627851/01_xg4w2k.png"
                 alt="Destaque central do Instagram"
                 loading="lazy"
                 className="h-full w-full object-cover"
@@ -42,7 +42,7 @@ export function InstagramGrid() {
               className="absolute left-[70%] top-[221px] h-[220px] w-[220px] overflow-hidden"
               aria-hidden
             >
-              <img src="/images/insta-6.jpg" alt="" loading="lazy" className="h-full w-full object-cover" />
+              <img src="https://res.cloudinary.com/dwf2uc6ot/image/upload/v1764628165/03_1_p6v3no.png" alt="" loading="lazy" className="h-full w-full object-cover" />
             </div>
 
             <div className="absolute left-[70%] top-[24%] flex h-14 w-14 items-center justify-center bg-[#111111] text-white">
@@ -53,20 +53,20 @@ export function InstagramGrid() {
               className="absolute left-[25%] top-[62%] h-[90px] w-[90px] overflow-hidden"
               aria-hidden
             >
-              <img src="/images/insta-3.jpg" alt="" loading="lazy" className="h-full w-full object-cover" />
+              <img src="https://res.cloudinary.com/dwf2uc6ot/image/upload/v1764628229/04_pjlyvd.png" alt="" loading="lazy" className="h-full w-full object-cover" />
             </div>
 
             <div
               className="absolute left-[70%] top-[82%] h-[140px] w-[150px] overflow-hidden"
               aria-hidden
             >
-              <img src="/images/insta-2.jpg" alt="" loading="lazy" className="h-full w-full object-cover" />
+              <img src="https://res.cloudinary.com/dwf2uc6ot/image/upload/v1764628714/04_1_zk0y5h.png" alt="" loading="lazy" className="h-full w-full object-cover" />
             </div>
             <div
               className="absolute left-[645px] top-[82%] h-[100px] w-[100px] overflow-hidden"
               aria-hidden
             >
-              <img src="/images/insta-5.jpg" alt="" loading="lazy" className="h-full w-full object-cover" />
+              <img src="https://res.cloudinary.com/dwf2uc6ot/image/upload/v1764628714/04_1_zk0y5h.png" alt="" loading="lazy" className="h-full w-full object-cover" />
             </div>
           </div>
 

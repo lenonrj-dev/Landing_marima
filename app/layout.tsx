@@ -14,7 +14,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Rino & Pelle — Landing",
+  title: "Marima — Landing",
   description: "Apelo luxuoso e contemporâneo para cada mulher.",
 };
 
@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body className={`${inter.variable} ${playfair.variable} bg-body text-[#111111] antialiased`}>
         <MotionProvider>{children}</MotionProvider>
       </body>
