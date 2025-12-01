@@ -3,9 +3,9 @@ import { Container } from "../layout/Container";
 import { SectionTitle } from "../ui/SectionTitle";
 
 const highlights = [
-  { title: "Conjunto athleisure", subtitle: "Destaque da temporada", image: "/images/highlight-card.svg" },
-  { title: "Trench alfaiatado", subtitle: "Destaque da temporada", image: "/images/highlight-2.svg" },
-  { title: "Tricô em camadas", subtitle: "Destaque da temporada", image: "/images/highlight-3.svg" },
+  { title: "Conjunto athleisure", subtitle: "Destaque da temporada", image: "https://res.cloudinary.com/diwvlsgsw/image/upload/v1758996380/products/ingwa51estpgozpxu0di.png" },
+  { title: "Trench alfaiatado", subtitle: "Destaque da temporada", image: "https://res.cloudinary.com/diwvlsgsw/image/upload/v1758995581/products/srojrqjrxh6mylulzsay.png" },
+  { title: "Tricô em camadas", subtitle: "Destaque da temporada", image: "https://res.cloudinary.com/diwvlsgsw/image/upload/v1758993367/products/dgije1vbavxzyj7dzprr.png" },
 ];
 
 export function SeasonHighlights() {
@@ -21,14 +21,14 @@ export function SeasonHighlights() {
           <div className="hidden items-center gap-3 md:flex">
             <button
               type="button"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-primary text-primary transition-colors duration-200 hover:bg-primary hover:text-white"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-[#111111] text-[#111111] transition-colors duration-200 hover:bg-[#111111] hover:text-white"
               aria-label="Previous highlight"
             >
               <ArrowLeft className="h-4 w-4" strokeWidth={1.5} />
             </button>
             <button
               type="button"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-primary text-primary transition-colors duration-200 hover:bg-primary hover:text-white"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-[#111111] text-[#111111] transition-colors duration-200 hover:bg-[#111111] hover:text-white"
               aria-label="Next highlight"
             >
               <ArrowRight className="h-4 w-4" strokeWidth={1.5} />

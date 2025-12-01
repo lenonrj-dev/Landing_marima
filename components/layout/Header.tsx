@@ -7,7 +7,7 @@ export function Header() {
     <header className="bg-body py-6">
       <Container className="flex items-center justify-between">
         <div className="font-serif text-lg uppercase tracking-[0.4em] text-[#111111]">
-          Rino &amp; Pelle
+          Marima
         </div>
         <nav className="hidden items-center gap-8 text-[11px] uppercase tracking-[0.25em] text-[#111111] lg:flex">
           {navItems.map((item) => (

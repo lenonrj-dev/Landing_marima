@@ -31,8 +31,8 @@ export function InstagramGrid() {
 
             <div className="absolute left-[35%] top-[18%] h-[340px] w-[360px] overflow-hidden">
               <img
-                src="/images/portrait-coat.jpg"
-                alt="Central Instagram highlight"
+                src="https://res.cloudinary.com/dwf2uc6ot/image/upload/v1764625176/Screenshot_11_gsdhap.png"
+                alt="Destaque central do Instagram"
                 loading="lazy"
                 className="h-full w-full object-cover"
               />
@@ -45,7 +45,7 @@ export function InstagramGrid() {
               <img src="/images/insta-6.jpg" alt="" loading="lazy" className="h-full w-full object-cover" />
             </div>
 
-            <div className="absolute left-[70%] top-[24%] flex h-14 w-14 items-center justify-center bg-primary text-white">
+            <div className="absolute left-[70%] top-[24%] flex h-14 w-14 items-center justify-center bg-[#111111] text-white">
               <Instagram className="h-6 w-6" strokeWidth={1.6} />
             </div>
 
@@ -92,9 +92,7 @@ export function InstagramGrid() {
           <h3 className="font-serif text-4xl leading-tight text-[#111111]">
             Siga-nos <span className="italic text-primary">@use.marima.ofc</span>
           </h3>
-          <p className="text-base text-muted">
-            Faça parte das nossas histórias! Junte-se à aventura.
-          </p>
+          <p className="text-base text-muted">Faça parte das nossas histórias! Junte-se à aventura.</p>
           <PrimaryButton className="w-[180px]">Siga-nos</PrimaryButton>
         </div>
       </Container>

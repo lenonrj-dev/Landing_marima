@@ -6,7 +6,7 @@ export function LargePortrait() {
       <Container className="flex justify-center">
         <div className="w-full max-w-[720px] overflow-hidden">
           <img
-            src="/images/portrait-coat.jpg"
+            src="https://res.cloudinary.com/diwvlsgsw/image/upload/v1758995305/products/lctbpw0dqjgqelujrlyn.png"
             alt="Statement coat portrait"
             loading="lazy"
             className="h-full w-full object-cover"

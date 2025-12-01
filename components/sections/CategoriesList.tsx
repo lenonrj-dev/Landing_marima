@@ -9,7 +9,7 @@ export function CategoriesList() {
         <div className="grid items-start gap-10 lg:grid-cols-3">
           <div className="overflow-hidden">
             <img
-              src="/images/category-left.jpg"
+              src="https://res.cloudinary.com/dwf2uc6ot/image/upload/v1764627393/download_15_vqn9bh.jpg"
               alt="Category look left"
               loading="lazy"
               className="h-full w-full object-cover "
@@ -31,7 +31,7 @@ export function CategoriesList() {
           </div>
           <div className="overflow-hidden">
             <img
-              src="/images/category-right.jpg"
+              src="https://res.cloudinary.com/dwf2uc6ot/image/upload/v1764627338/download_14_apacp0.jpg"
               alt="Category look right"
               loading="lazy"
               className="h-full w-full object-cover mt-60"

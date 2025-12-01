@@ -20,7 +20,7 @@ const helpColumns = [
 
 export function HelpArea() {
   return (
-    <section className="bg-[#efeee9] py-20">
+
       <Container>
         <div className="grid gap-10 lg:grid-cols-[0.4fr_1fr]">
           <div>
@@ -41,6 +41,6 @@ export function HelpArea() {
           </div>
         </div>
       </Container>
-    </section>
+    
   );
 }
