@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { scaleIn, staggerContainer, useMotionSafeProps } from "../animations";
 import { Container } from "../layout/Container";
 
 const collage = [
@@ -13,13 +12,11 @@ const collage = [
 ];
 
 export function HeroCollage() {
-  const motionSafe = useMotionSafeProps({ viewportAmount: 0.2 });
-
   return (
-    <motion.section className="bg-body pb-20 pt-8 ml-25" variants={staggerContainer(0.1)} {...motionSafe}>
+    <motion.section className="bg-body pb-16 pt-6" initial={false}>
       <Container>
         {/* Desktop absolute collage so each image is isolated but centered as a group */}
-        <div className="relative hidden h-[580px] w-[1230px] max-w-full lg:block mx-auto">
+        <div className="relative hidden h-[620px] w-full max-w-[1160px] lg:block mx-auto">
           {collage.map((item) => (
             <motion.div
               key={item.src}
@@ -30,7 +27,7 @@ export function HeroCollage() {
                 width: `${item.width}px`,
                 height: `${item.height}px`,
               }}
-              variants={scaleIn()}
+              initial={false}
             >
               <img src={item.src} alt="" loading="lazy" className="h-full w-full object-cover" />
             </motion.div>
@@ -38,9 +35,9 @@ export function HeroCollage() {
         </div>
 
         {/* Mobile/tablet fallback grid to keep responsiveness simple */}
-        <div className="grid grid-cols-2 gap-4 lg:hidden">
+        <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:hidden">
           {collage.map((item) => (
-            <motion.div key={item.src} className="overflow-hidden" variants={scaleIn()}>
+            <motion.div key={item.src} className="overflow-hidden rounded-2xl bg-white shadow-md" initial={false}>
               <img src={item.src} alt="" loading="lazy" className="h-full w-full object-cover" />
             </motion.div>
           ))}

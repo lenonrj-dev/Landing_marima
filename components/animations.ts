@@ -51,7 +51,7 @@ export function useMotionSafeProps(opts?: {
   const reduce = useReducedMotion();
   if (reduce) return {};
   return {
-    initial: "visible",
+    initial: false,
     animate: undefined,
     whileInView: undefined,
     viewport: undefined,

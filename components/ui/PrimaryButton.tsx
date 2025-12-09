@@ -15,19 +15,31 @@ const base =
 export function PrimaryButton({ children, href, className }: PrimaryButtonProps) {
   const reduce = useReducedMotion();
   const hoverProps = reduce
-    ? {}
+    ? { whileHover: undefined, whileTap: undefined, transition: undefined }
     : { whileHover: { y: -2, scale: 1.02 }, whileTap: { scale: 0.98 }, transition: { duration: 0.18 } };
 
   if (href) {
     return (
-      <motion.a href={href} className={`${base} ${className ?? ""}`} {...hoverProps}>
+      <motion.a
+        href={href}
+        className={`${base} ${className ?? ""}`}
+        {...hoverProps}
+        initial={false}
+        tabIndex={0}
+      >
         {children}
       </motion.a>
     );
   }
 
   return (
-    <motion.button type="button" className={`${base} ${className ?? ""}`} {...hoverProps}>
+    <motion.button
+      type="button"
+      className={`${base} ${className ?? ""}`}
+      {...hoverProps}
+      initial={false}
+      tabIndex={0}
+    >
       {children}
     </motion.button>
   );
