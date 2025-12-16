@@ -9,11 +9,11 @@ import { Container } from "./Container";
 import { MobileNav } from "./MobileNav";
 
 const navItems = [
-  { label: "Inicio", href: "/" },
-  { label: "Catalogo", href: "/catalogo" },
-  { label: "Colecoes", href: "/colecoes" },
-  { label: "Blog", href: "/blog" },
-  { label: "Contato", href: "/contato" },
+  { label: "Inicio", href: "/#top" },
+  { label: "Catalogo", href: "/#catalogo" },
+  { label: "Colecoes", href: "/#colecao" },
+  { label: "Blog", href: "/#instagram" },
+  { label: "Contato", href: "/#contato" },
 ];
 
 export function Header() {

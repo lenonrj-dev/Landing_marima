@@ -37,7 +37,8 @@ export function SeasonIntro() {
 
   return (
     <motion.section
-      className="bg-body py-12 sm:py-16 lg:py-20"
+      id="colecao"
+      className="bg-body py-12 sm:py-16 lg:py-20 scroll-mt-20"
       variants={staggerContainer(0.15)}
       initial="hidden"
       whileInView="show"

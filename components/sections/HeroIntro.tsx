@@ -9,6 +9,7 @@ export function HeroIntro() {
 
   return (
     <motion.section
+      id="top"
       className="bg-body py-12 sm:py-16 lg:py-20"
       variants={staggerContainer(0.08)}
       initial="hidden"

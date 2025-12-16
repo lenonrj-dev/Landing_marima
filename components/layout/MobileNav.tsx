@@ -49,8 +49,8 @@ export function MobileNav({ open, onClose, navItems, activeHref }: MobileNavProp
 
   const actions = useMemo(
     () => [
-      { label: "Favoritos", icon: <Heart className={`h-5 w-5 ${interactiveIcon}`} aria-hidden />, href: "/favoritos" },
-      { label: "Sacola", icon: <ShoppingBag className={`h-5 w-5 ${interactiveIcon}`} aria-hidden />, href: "/sacola" },
+      { label: "Favoritos", icon: <Heart className={`h-5 w-5 ${interactiveIcon}`} aria-hidden />, href: "/#catalogo" },
+      { label: "Sacola", icon: <ShoppingBag className={`h-5 w-5 ${interactiveIcon}`} aria-hidden />, href: "/#catalogo" },
       { label: "Entrar", icon: <User className={`h-5 w-5 ${interactiveIcon}`} aria-hidden />, href: "/login" },
     ],
     [],

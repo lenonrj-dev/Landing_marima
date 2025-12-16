@@ -10,7 +10,8 @@ export function Newsletter() {
 
   return (
     <motion.section
-      className="bg-white py-12 sm:py-16 lg:py-20"
+      id="contato"
+      className="bg-white py-12 sm:py-16 lg:py-20 scroll-mt-20"
       variants={staggerContainer(0.08)}
       initial="hidden"
       whileInView="show"
