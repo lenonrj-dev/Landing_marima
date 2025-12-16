@@ -46,7 +46,7 @@ export function HeroCollage() {
 
         {/* Mobile/tablet fallback grid to keep responsiveness simple */}
         <motion.div className="grid grid-cols-2 gap-3 sm:gap-4 lg:hidden" variants={slideInRight(0.08)}>
-          {collage.map((item, idx) => (
+          {collage.slice(0, 3).map((item, idx) => (
             <motion.div
               key={item.src}
               className="overflow-hidden rounded-2xl bg-white shadow-md"
