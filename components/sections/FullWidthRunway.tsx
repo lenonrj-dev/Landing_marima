@@ -44,7 +44,7 @@ const slides = [
 const headlineVariants = {
   hidden: { opacity: 0, y: 24 },
   show: { opacity: 1, y: 0, transition: { duration: 0.55, ease: [0.22, 1, 0.36, 1] as const } },
-  exit: { opacity: 0, y: -24, transition: { duration: 0.3, ease: "easeIn" } },
+  exit: { opacity: 0, y: -24, transition: { duration: 0.3, ease: [0.42, 0, 0.58, 1] as const } },
 };
 
 const bgVariants = {
