@@ -3,7 +3,7 @@ import { Header } from "@/components/layout/Header";
 import { CategoriesList } from "@/components/sections/CategoriesList";
 import { EditorialFeature } from "@/components/sections/EditorialFeature";
 import { FullWidthRunway } from "@/components/sections/FullWidthRunway";
-import { HelpArea } from "@/components/sections/HelpArea";
+
 import { HeroCollage } from "@/components/sections/HeroCollage";
 import { HeroIntro } from "@/components/sections/HeroIntro";
 import { InstagramGrid } from "@/components/sections/InstagramGrid";
@@ -27,7 +27,6 @@ export default function Home() {
         <LargePortrait />
         <InstagramGrid />
         <Newsletter />
-        <HelpArea />
         <Footer />
       </main>
     </div>
