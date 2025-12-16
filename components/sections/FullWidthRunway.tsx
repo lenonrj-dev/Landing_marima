@@ -14,9 +14,9 @@ const slides = [
     description: "Pecas esculturais com acabamentos premium. Prepare-se para o spotlight.",
     price: "a partir de R$ 153,00",
     sizes: [
-      { label: "P", href: "/comprar/runway-luxe-p" },
-      { label: "M", href: "/comprar/runway-luxe-m" },
-      { label: "G", href: "/comprar/runway-luxe-g" },
+      { label: "P", href: "https://seguro.usemarima.com.br/pay/COOGXXDCBG" },
+      { label: "M", href: "https://seguro.usemarima.com.br/pay/GBOGDZAYW" },
+      { label: "G", href: "https://seguro.usemarima.com.br/pay/C0GEGGE7A" },
     ],
   },
   {
@@ -24,19 +24,19 @@ const slides = [
     description: "Alfaiataria com performance: conforto extremo e caimento impecavel.",
     price: "por R$ 140,00",
     sizes: [
-      { label: "P", href: "/comprar/tailoring-athleisure-p" },
-      { label: "M", href: "/comprar/tailoring-athleisure-m" },
-      { label: "G", href: "/comprar/tailoring-athleisure-g" },
+      { label: "P", href: "https://seguro.usemarima.com.br/pay/SZG4V27PCQ" },
+      { label: "M", href: "https://seguro.usemarima.com.br/pay/6WLT8ECCA" },
+      { label: "G", href: "https://seguro.usemarima.com.br/pay/RWLVEOKO3W" },
     ],
   },
   {
-    title: "Conjunto Fitness Top Nadador e Calca Leggin Basica Nude",
+    title: "Conjunto Fitness Top Nadador e Calca Legging Basica Nude",
     description: "Tons neutros, textura sofisticada e versatilidade total para seu dia.",
     price: "combo R$ 153,00",
     sizes: [
-      { label: "P", href: "/comprar/capsule-mono-p" },
-      { label: "M", href: "/comprar/capsule-mono-m" },
-      { label: "G", href: "/comprar/capsule-mono-g" },
+      { label: "P", href: "https://seguro.usemarima.com.br/pay/HMUOWLGIQ" },
+      { label: "M", href: "https://seguro.usemarima.com.br/pay/T8TSKYJPMA" },
+      { label: "G", href: "https://seguro.usemarima.com.br/pay/A26SSCGHAQ" },
     ],
   },
 ];
