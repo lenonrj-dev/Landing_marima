@@ -20,7 +20,7 @@ export function Newsletter() {
     >
       <Container className="flex flex-col items-center gap-6 sm:gap-8 text-center">
         <motion.span className="text-[11px] uppercase tracking-[0.25em] text-muted" variants={textReveal()}>
-          Newsletter
+          Novidades
         </motion.span>
         <motion.h3 className="font-serif text-3xl sm:text-4xl leading-tight text-[#111111]" variants={fadeInUp(0.06)}>
           Inscreva-se para receber as novidades
@@ -41,7 +41,7 @@ export function Newsletter() {
             placeholder="E-mail"
             className="h-12 flex-1 min-w-[200px] border border-[#d9d9d5] bg-white px-4 text-sm tracking-wide focus:border-primary focus:outline-none"
           />
-          <PrimaryButton className="w-[170px]" type="submit">
+          <PrimaryButton className="w-[170px]" href="https://usemarima.com" type="button">
             Inscrever
           </PrimaryButton>
         </motion.form>

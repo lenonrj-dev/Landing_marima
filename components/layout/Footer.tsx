@@ -36,7 +36,7 @@ export function Footer() {
   return (
     <footer className="mt-24 bg-footer text-white">
       <Container className="py-16">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
             <div className="font-serif text-xl uppercase tracking-[0.35em]">Marima</div>
             <p className="text-sm text-white/70">
@@ -46,7 +46,7 @@ export function Footer() {
           {columns.map((column) => (
             <div key={column.title} className="space-y-4">
               <div className="text-sm uppercase tracking-[0.18em] text-white/70">{column.title}</div>
-              <div className="space-y-2 text-sm">
+              <div className="space-y-2 text-sm flex flex-col">
                 {column.links.map((link) => (
                   <Link
                     key={link.label}
