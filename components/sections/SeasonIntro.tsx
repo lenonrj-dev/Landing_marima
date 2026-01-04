@@ -9,9 +9,9 @@ import { interactiveClasses, subtleMotion } from "../ui/interactive";
 
 const productImages = [
   { src: "https://res.cloudinary.com/dwf2uc6ot/image/upload/v1765655178/02_1_gkj4ic.png", alt: "Short Fitness Estilo Recorte Preto - frente" },
-  { src: "https://res.cloudinary.com/dwf2uc6ot/image/upload/v1765657046/07_oi6gh3.png", alt: "Short Fitness Estilo Recorte Preto - detalhe" },
-  { src: "https://res.cloudinary.com/dwf2uc6ot/image/upload/v1765656922/06_a3x28w.png", alt: "Short Fitness Estilo Recorte Preto - lifestyle" },
-  { src: "https://res.cloudinary.com/dwf2uc6ot/image/upload/v1765657155/08_l9fztx.png", alt: "Short Fitness Estilo Recorte Preto - treino" },
+  { src: "https://res.cloudinary.com/dwf2uc6ot/image/upload/v1766242156/IMG_1542_rnrrby.jpg", alt: "Short Fitness Estilo Recorte Preto - detalhe" },
+  { src: "https://res.cloudinary.com/dwf2uc6ot/image/upload/v1766242157/IMG_1538_rmqicv.jpg", alt: "Short Fitness Estilo Recorte Preto - lifestyle" },
+  { src: "https://res.cloudinary.com/dwf2uc6ot/image/upload/v1766243827/IMG_1526_dkztc4.png", alt: "Short Fitness Estilo Recorte Preto - treino" },
 ];
 
 const productSizes = [

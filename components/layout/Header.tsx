@@ -8,12 +8,14 @@ import { interactiveClasses, subtleMotion } from "../ui/interactive";
 import { Container } from "./Container";
 import { MobileNav } from "./MobileNav";
 
+const promotionsPath = "/pagina-de-promocoes";
+
 const navItems = [
-  { label: "Inicio", href: "/#top" },
-  { label: "Catalogo", href: "/#catalogo" },
-  { label: "Colecoes", href: "/#colecao" },
-  { label: "Blog", href: "/#instagram" },
-  { label: "Contato", href: "/#contato" },
+  { label: "Inicio", href: `${promotionsPath}#top` },
+  { label: "Catalogo", href: `${promotionsPath}#catalogo` },
+  { label: "Colecoes", href: `${promotionsPath}#colecao` },
+  { label: "Blog", href: `${promotionsPath}#instagram` },
+  { label: "Contato", href: `${promotionsPath}#contato` },
 ];
 
 export function Header() {
@@ -35,7 +37,7 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
       <Container className="flex h-14 items-center justify-between py-0">
         <Link
-          href="/"
+          href={`${promotionsPath}#top`}
           className={`${interactiveClasses} px-2 py-1 font-serif text-base uppercase tracking-[0.32em] text-[#111111] focus-visible:ring-offset-white`}
         >
           Marima

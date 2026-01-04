@@ -7,7 +7,7 @@ import { Container } from "../layout/Container";
 const collage = [
   { src: "https://res.cloudinary.com/dwf2uc6ot/image/upload/v1765655086/01_1_nkav71.png", width: 260, height: 430, left: -350, top: 24 },
   { src: "https://res.cloudinary.com/dwf2uc6ot/image/upload/v1765658296/DSC09945_elqjsl.png", width: 380, height: 550, left: 0, top: -10 },
-  { src: "https://res.cloudinary.com/dwf2uc6ot/image/upload/v1765655307/03_2_fnmb3w.png", width: 265, height: 440, left: 450, top: 32 },
+  { src: "https://res.cloudinary.com/dwf2uc6ot/image/upload/v1766242156/IMG_1542_rnrrby.jpg", width: 265, height: 440, left: 450, top: 32 },
   { src: "https://res.cloudinary.com/dwf2uc6ot/image/upload/v1765797188/1_wmhpvx.png", width: 340, height: 480, left: 770, top: 70 },
   { src: "https://res.cloudinary.com/dwf2uc6ot/image/upload/v1765656138/05_rjy8fi.png", width: 230, height: 380, left: 1170, top: 40 },
 ];

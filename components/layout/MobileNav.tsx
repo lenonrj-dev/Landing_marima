@@ -18,6 +18,8 @@ type MobileNavProps = {
   activeHref?: string;
 };
 
+const promotionsPath = "/pagina-de-promocoes";
+
 const overlayVariants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1 },
@@ -49,8 +51,16 @@ export function MobileNav({ open, onClose, navItems, activeHref }: MobileNavProp
 
   const actions = useMemo(
     () => [
-      { label: "Favoritos", icon: <Heart className={`h-5 w-5 ${interactiveIcon}`} aria-hidden />, href: "/#catalogo" },
-      { label: "Sacola", icon: <ShoppingBag className={`h-5 w-5 ${interactiveIcon}`} aria-hidden />, href: "/#catalogo" },
+      {
+        label: "Favoritos",
+        icon: <Heart className={`h-5 w-5 ${interactiveIcon}`} aria-hidden />,
+        href: `${promotionsPath}#catalogo`,
+      },
+      {
+        label: "Sacola",
+        icon: <ShoppingBag className={`h-5 w-5 ${interactiveIcon}`} aria-hidden />,
+        href: `${promotionsPath}#catalogo`,
+      },
       { label: "Entrar", icon: <User className={`h-5 w-5 ${interactiveIcon}`} aria-hidden />, href: "/login" },
     ],
     [],

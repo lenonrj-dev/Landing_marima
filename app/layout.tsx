@@ -14,8 +14,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Marima — Landing",
-  description: "Apelo luxuoso e contemporâneo para cada mulher.",
+  metadataBase: new URL("https://usemarima.com.br"),
 };
 
 export default function RootLayout({
