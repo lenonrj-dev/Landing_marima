@@ -12,6 +12,7 @@ type PrimaryButtonProps = {
   type?: "button" | "submit" | "reset";
   loading?: boolean;
   ariaLabel?: string;
+  onClick?: (event: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => void;
   target?: "_blank" | "_self" | "_parent" | "_top";
   rel?: string;
 };
@@ -28,6 +29,7 @@ export function PrimaryButton({
   type = "button",
   loading = false,
   ariaLabel,
+  onClick,
   target,
   rel,
 }: PrimaryButtonProps) {
@@ -59,6 +61,7 @@ export function PrimaryButton({
         initial={false}
         aria-label={ariaLabel}
         tabIndex={0}
+        onClick={onClick}
       >
         {content}
       </motion.a>
@@ -74,6 +77,7 @@ export function PrimaryButton({
         initial={false}
         aria-label={ariaLabel}
         tabIndex={0}
+        onClick={onClick}
       >
         {content}
       </MotionLink>
@@ -89,6 +93,7 @@ export function PrimaryButton({
       aria-label={ariaLabel}
       disabled={loading}
       tabIndex={0}
+      onClick={onClick}
     >
       {content}
     </motion.button>

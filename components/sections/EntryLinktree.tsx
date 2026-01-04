@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { track } from "@vercel/analytics";
 import { fadeInUp, scaleIn, staggerContainer, textReveal, useMotionSafeProps } from "../animations";
 import { PrimaryButton } from "../ui/PrimaryButton";
 
@@ -17,6 +18,7 @@ export function EntryLinktree({ whatsappNumber }: EntryLinktreeProps) {
   const motionSafe = useMotionSafeProps({ viewportAmount: 0.6 });
   const getWhatsAppLink = (message: string) =>
     `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+  const whatsappHref = getWhatsAppLink(defaultWhatsAppMessage);
 
   return (
     <motion.section
@@ -64,6 +66,13 @@ export function EntryLinktree({ whatsappNumber }: EntryLinktreeProps) {
               ariaLabel="Acessar loja virtual Marima"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() =>
+                track("cta_click", {
+                  cta: "Acessar Loja Virtual",
+                  location: "entry_linktree",
+                  href: storeUrl,
+                })
+              }
             >
               Acessar Loja Virtual
             </PrimaryButton>
@@ -71,10 +80,17 @@ export function EntryLinktree({ whatsappNumber }: EntryLinktreeProps) {
           <motion.div variants={fadeInUp(0.12)}>
             <PrimaryButton
               className="min-h-[48px] h-14 w-full text-xs sm:text-sm bg-white !text-[#111111] border border-[#111111]/30 shadow-sm transition-colors duration-200 hover:bg-[#111111] hover:!text-white hover:border-[#111111] hover:shadow-md focus-visible:bg-[#111111] focus-visible:!text-white focus-visible:border-[#111111]"
-              href={getWhatsAppLink(defaultWhatsAppMessage)}
+              href={whatsappHref}
               ariaLabel="Falar no WhatsApp da Marima"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() =>
+                track("cta_click", {
+                  cta: "Falar no WhatsApp",
+                  location: "entry_linktree",
+                  href: whatsappHref,
+                })
+              }
             >
               Falar no WhatsApp
             </PrimaryButton>
@@ -84,6 +100,13 @@ export function EntryLinktree({ whatsappNumber }: EntryLinktreeProps) {
               className="min-h-[48px] h-14 w-full text-xs sm:text-sm bg-white !text-[#111111] border border-[#111111]/60 shadow-md transition-colors duration-200 hover:bg-[#111111] hover:!text-white hover:border-[#111111] hover:shadow-lg focus-visible:bg-[#111111] focus-visible:!text-white focus-visible:border-[#111111]"
               href={promotionsUrl}
               ariaLabel="Ver promocoes Marima"
+              onClick={() =>
+                track("cta_click", {
+                  cta: "Ver Promocoes",
+                  location: "entry_linktree",
+                  href: promotionsUrl,
+                })
+              }
             >
               Ver Promocoes
             </PrimaryButton>
